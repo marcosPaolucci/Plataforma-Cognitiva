@@ -16,7 +16,7 @@ previsao_2021 = modelo_regressao.predict([[2021]])
 previsao_2022 = modelo_regressao.predict([[2022]])
 previsao_2023 = modelo_regressao.predict([[2023]])
 
-# Imprimir as previsões de vendas previstas:
+# Imprimir os numeros de vendas previstas:
 print("Previsão de vendas para 2015 (com regressão linear):", previsao_2015[0])
 print("Previsão de vendas para 2020 (com regressão linear):", previsao_2020[0])
 print("Previsão de vendas para 2021 (com regressão linear):", previsao_2021[0])
