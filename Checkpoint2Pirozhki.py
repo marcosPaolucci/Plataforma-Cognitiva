@@ -9,14 +9,14 @@ vendas = np.array([723, 814, 905, 1087, 1360, 1451, 1542])
 modelo_regressao = LinearRegression()
 modelo_regressao.fit(anos, vendas)
 
-# Fazer previsão para 2015
+# Fazer as previsões de vendas tendo como entrada o respectivo ano:
 previsao_2015 = modelo_regressao.predict([[2015]])
 previsao_2020 = modelo_regressao.predict([[2020]])
 previsao_2021 = modelo_regressao.predict([[2021]])
 previsao_2022 = modelo_regressao.predict([[2022]])
 previsao_2023 = modelo_regressao.predict([[2023]])
 
-# Imprimir a previsão para 2015
+# Imprimir as previsões de vendas previstas:
 print("Previsão de vendas para 2015 (com regressão linear):", previsao_2015[0])
 print("Previsão de vendas para 2020 (com regressão linear):", previsao_2020[0])
 print("Previsão de vendas para 2021 (com regressão linear):", previsao_2021[0])
